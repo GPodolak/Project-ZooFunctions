@@ -1,7 +1,7 @@
 // const { species } = require('../data/zoo_data');
 
 const { species } = require('../data/zoo_data');
-
+// comentario pra commit
 const getAnimalName = (animal) => species.find((specie) => specie.name === animal.specie);
 const getAnimalSex = (choosenAnimal, animal) => {
   const sexAnimal = choosenAnimal.residents.filter((resident) => resident.sex === animal.sex);
